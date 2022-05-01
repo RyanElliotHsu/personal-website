@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    gap: 0.2em;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+#icon {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.home {
+    color: white;
+    display: grid;
+    gap: 2m;
+    margin: 2em;
+}
+
+footer {
+    color: #929191;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:#F78237
+}
+
+#welcome {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8em;
+}
+
+#name {
+    color: #F78237;
+}
+
+#intro {
+    color: #929191;
+    font-family: 'Sora', sans-serif;
+    font-size: 0.8em;
+}
+
+.highlight {
+    color: #CAC8C8;
+}
+
+/* media queries */
+@media (min-width: 60em) {
+    text{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main {
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #icon {
+        font-size: 1.5em;
+        margin-left: 1em;
+    }
+}
