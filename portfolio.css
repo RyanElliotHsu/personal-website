@@ -93,8 +93,8 @@ footer {
     margin-bottom: 0.7em;
 }
 
-.contacts {
-    color: white;
+.portimage {
+    transition: opacity 500ms;
 }
 
 /* media queries */

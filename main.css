@@ -77,6 +77,15 @@ h2 {
     color: #929191;
 }
 
+.source {
+    font-size: 0.7em;
+    color: #929191;
+}
+
+.portimage {
+    transition: opacity 500ms;
+}
+
 /* media queries */
 @media (min-width: 60em) {
     text{
@@ -99,5 +108,10 @@ h2 {
 
     .orange {
         color: #F78237;
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
