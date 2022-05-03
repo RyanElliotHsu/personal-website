@@ -19,6 +19,10 @@ h1 {
     border: 1px solid white;
 }
 
+.orange {
+    color: black;
+}
+
 .home {
     color: white;
     display: grid;
@@ -32,6 +36,7 @@ footer {
     bottom: 1px;
     width: 100%;
     text-align: center;
+    margin-top: 5em;
 }
 
 a:link, a:visited {
@@ -62,6 +67,16 @@ a:hover, a:active {
     color: #CAC8C8;
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #929191;
+}
+
+.contacts {
+    color: #929191;
+}
+
 /* media queries */
 @media (min-width: 60em) {
     text{
@@ -80,5 +95,9 @@ a:hover, a:active {
     #icon {
         font-size: 1.5em;
         margin-left: 1em;
+    }
+
+    .orange {
+        color: #F78237;
     }
 }

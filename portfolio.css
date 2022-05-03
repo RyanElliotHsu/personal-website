@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:#929191;
+    background-color: white;
 }
 
 nav {
@@ -52,11 +52,8 @@ a:hover, a:active {
     background-color: white;
 }
 
-.project > p {
-    margin: 1em;
-}
-
 .description {
+    margin: 1em;
     color: #505050;
     font-family: 'Sora', sans-serif;
     text-align: none;
@@ -67,7 +64,37 @@ a:hover, a:active {
     font-weight: bold;
     padding: 4px;
     border: 1px solid #505050;
+    align-content: center;
+}
+
+.vb {
     text-align: center;
+    margin-top: 3em;
+}
+
+.mobile {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-top: 1px solid #929191;
+}
+
+.web {
+    border: none;
+    background-color: none;
+}
+
+footer {
+    color: #929191;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 0.7em;
+}
+
+.contacts {
+    color: white;
 }
 
 /* media queries */
@@ -83,9 +110,20 @@ a:hover, a:active {
         margin-left: 1em;
     }
 
-    row {
+    .row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1.5em;
+    }
+
+    .mobile {
+        margin: 0;
+        border: none;
+    }
+
+    .web {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        border-top: 1px solid #929191;
     }
 }
