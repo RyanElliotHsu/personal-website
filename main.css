@@ -82,10 +82,6 @@ h2 {
     color: #929191;
 }
 
-.portimage {
-    transition: opacity 500ms;
-}
-
 /* media queries */
 @media (min-width: 60em) {
     text{
